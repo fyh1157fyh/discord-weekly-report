@@ -5,25 +5,31 @@
 ## Quick Start
 
 ```powershell
-cd D:\Codex-Standalone-tasks\discord-weekly-report
-python -m venv .venv
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m pip install -e .
-copy .env.example .env
+git clone https://github.com/fyh1157fyh/discord-weekly-report.git
+cd discord-weekly-report
+powershell -ExecutionPolicy Bypass -File .\scripts\setup.ps1
 ```
 
 填好 `.env` 后运行：
 
 ```powershell
-.\.venv\Scripts\python.exe -m discord_weekly_report.main
+powershell -ExecutionPolicy Bypass -File .\scripts\run_weekly.ps1
 ```
+
+完整配置步骤见 [docs/user_setup.md](docs/user_setup.md)。
+
+## For Other Users
+
+不需要 Release 也可以使用：这个项目是脚本型 Python 工具，其他人直接 clone 仓库、复制 `.env.example` 为 `.env`、填自己的 Discord/飞书配置后运行即可。
+
+真实密钥、Discord 原文数据、生成报告不会提交到仓库；如果把仓库设为 Public，也请继续只在本地或私有环境运行采集流程。
 
 ## Feishu
 
 先验证多维表格字段和写入权限：
 
 ```powershell
-.\.venv\Scripts\python.exe -m discord_weekly_report.verify_feishu
+powershell -ExecutionPolicy Bypass -File .\scripts\verify_feishu.ps1
 ```
 
 只验证飞书消息：
