@@ -1,0 +1,1 @@
+"""Discord weekly report package."""

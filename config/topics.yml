@@ -1,0 +1,240 @@
+topics:
+  - key: arena
+    display_name: 竞技场
+    keywords:
+      - arena
+      - silver arena
+      - peak arena
+      - regular arena
+      - make the arena fair
+      - 竞技场
+    exclude_keywords:
+      - ava
+      - alliance v alliance
+      - alliance versus alliance
+      - champion duel
+      - duel dominator
+    context_before: 2
+    context_after: 2
+    issue_groups:
+      - key: arena_access_bug
+        display_name: Arena 无法攻击或参与异常
+        keywords:
+          - unable to attack
+          - unable to atk
+          - cannot attack
+          - silver arena
+          - peak arena
+          - missed my chance
+      - key: arena_matching_cost
+        display_name: Arena 搜索和匹配成本
+        keywords:
+          - make the arena fair
+          - block our own state
+          - algorithm
+          - out of state
+          - cost to find
+      - key: arena_scoring_rewards
+        display_name: Arena 计分和奖励获得
+        keywords:
+          - regular arena
+          - arena rewards
+          - daily rewards
+          - weekly rewards
+          - count in vs
+          - contribution in arena
+
+  - key: ava
+    display_name: AvA 联盟对抗
+    keywords:
+      - ava
+      - avsa
+      - alliance v alliance
+      - alliance versus alliance
+      - alliance duel
+      - champion duel
+      - duel dominator
+      - champion tournament
+      - champion's tournament
+    exclude_keywords: []
+    context_before: 2
+    context_after: 2
+    issue_groups:
+      - key: ava_points_bug
+        display_name: AvA 积分未计入或结算异常
+        keywords:
+          - ava points
+          - points
+          - not counted
+          - doesn't count
+          - lost
+          - glitch
+          - mod vehicle
+          - mod vevical
+      - key: ava_reset_time
+        display_name: AvA 重置时间对 EU 不友好
+        keywords:
+          - reset
+          - 3am
+          - 4am
+          - 5am
+          - eu
+          - europe
+          - timezone
+      - key: ava_matchmaking
+        display_name: AvA 匹配公平和分组
+        keywords:
+          - matchmaking
+          - unfair
+          - different state
+          - different states
+          - opponent
+          - elo
+          - league
+          - t10s
+      - key: ava_management_tools
+        display_name: AvA 联盟管理工具需求
+        keywords:
+          - alliance squad management
+          - export duel
+          - duel results
+          - track opponents
+          - alliance management
+
+  - key: trunk
+    display_name: Trunk 玩法
+    keywords:
+      - trunk
+      - trunks
+      - trunk event
+      - trunk gameplay
+      - trunk reward
+      - trunk rewards
+      - trunk points
+      - trunk ranking
+      - trunk shop
+      - treasure trunk
+      - 战备箱
+      - 宝箱
+      - 箱子
+      - 行李箱
+    exclude_keywords: []
+    context_before: 2
+    context_after: 2
+    issue_groups:
+      - key: trunk_rewards
+        display_name: Trunk 奖励价值
+        keywords:
+          - trunk reward
+          - trunk rewards
+          - rewards are bad
+          - not worth
+          - too few rewards
+          - reward value
+          - 奖励
+          - 性价比
+      - key: trunk_progress
+        display_name: Trunk 进度和积分压力
+        keywords:
+          - trunk points
+          - points required
+          - progress
+          - milestone
+          - ranking
+          - leaderboard
+          - 积分
+          - 排名
+          - 进度
+      - key: trunk_rules
+        display_name: Trunk 规则理解成本
+        keywords:
+          - trunk rules
+          - confusing
+          - unclear
+          - how does trunk work
+          - don't understand
+          - 规则
+          - 看不懂
+          - 不明白
+
+  - key: migration
+    display_name: 迁服
+    keywords:
+      - migration
+      - server migration
+      - transfer
+      - state transfer
+      - 迁服
+      - 转服
+      - 移民
+    issue_groups:
+      - key: migration_rules
+        display_name: 迁服规则和资格
+        keywords:
+          - migration
+          - server migration
+          - transfer rules
+          - eligibility
+          - 迁服规则
+          - 迁服资格
+      - key: migration_cost
+        display_name: 迁服成本和道具
+        keywords:
+          - transfer ticket
+          - migration ticket
+          - cost
+          - expensive
+          - 迁服票
+          - 迁服成本
+
+  - key: volcano
+    display_name: 火山战
+    keywords:
+      - volcano
+      - volcanic
+      - lava
+      - 火山
+      - 火山战
+    issue_groups:
+      - key: volcano_matchmaking
+        display_name: 火山战匹配公平
+        keywords:
+          - volcano matchmaking
+          - unfair match
+          - power gap
+          - 火山匹配
+          - 匹配不公平
+
+  - key: canyon
+    display_name: 峡谷
+    keywords:
+      - canyon
+      - canyon clash
+      - 峡谷
+      - 峡谷战
+    issue_groups:
+      - key: canyon_matchmaking
+        display_name: 峡谷匹配公平
+        keywords:
+          - canyon matchmaking
+          - canyon clash
+          - unfair
+          - weaker players
+          - 峡谷匹配
+
+  - key: honor_battle
+    display_name: 荣耀战
+    keywords:
+      - honor battle
+      - battle of honor
+      - honor
+      - 荣耀战
+      - 荣誉战
+    issue_groups:
+      - key: honor_matchmaking
+        display_name: 荣耀战匹配公平
+        keywords:
+          - honor battle matchmaking
+          - unfair match
+          - power gap
+          - 荣耀战匹配
