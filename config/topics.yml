@@ -238,3 +238,71 @@ topics:
           - unfair match
           - power gap
           - 荣耀战匹配
+
+  - key: broadcast_speaker
+    display_name: Broadcast Speaker
+    keywords:
+      - broadcast speaker
+      - broadcast speakers
+      - broadcast
+      - loudspeaker
+      - speaker
+      - announcement
+      - announcements
+      - server broadcast
+      - state broadcast
+      - alliance broadcast
+    exclude_keywords:
+      - voice speaker
+      - bluetooth speaker
+      - audio speaker
+    context_before: 2
+    context_after: 2
+    issue_groups:
+      - key: broadcast_speaker_rules
+        display_name: Broadcast Speaker 规则理解成本
+        keywords:
+          - how to use
+          - how does
+          - rule
+          - rules
+          - explain
+          - unclear
+          - confused
+          - don't understand
+      - key: broadcast_speaker_permission_cost
+        display_name: Broadcast Speaker 权限和消耗限制
+        keywords:
+          - permission
+          - permissions
+          - r5
+          - leader
+          - officer
+          - cooldown
+          - cool down
+          - cost
+          - item
+          - limit
+      - key: broadcast_speaker_visibility_noise
+        display_name: Broadcast Speaker 展示效果和打扰感
+        keywords:
+          - too many
+          - spam
+          - annoying
+          - block
+          - mute
+          - visible
+          - visibility
+          - notification
+          - notifications
+      - key: broadcast_speaker_bug
+        display_name: Broadcast Speaker 疑似异常
+        keywords:
+          - bug
+          - broken
+          - not working
+          - doesn't work
+          - cannot
+          - can't
+          - unable
+          - missing
